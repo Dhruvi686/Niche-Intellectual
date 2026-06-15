@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+
+.menu
+{
+
+color:#FFFFFF;
+font-family:Arial, Helvetica, sans-serif;
+font-size:8pt;
+font-weight:bold;
+}
+.menu a
+{
+color:#FFFFFF;
+text-decoration:none;
+}
+.menu a:hover
+{
+font-size:8pt;
+color:#FFFF00;
+}
+
+body 
+{
+font-size:8pt;
+font-family:verdana;
+margin:0;
+background-color:#CFCFCF;
+text-align:center;
+}
+.fmenu a{
+	text-decoration:none;
+	color:#000000;
+}
+.fmenu a:hover{
+	color:#FF6600;
+}
