@@ -3,7 +3,7 @@ error_reporting(0);
 session_start();
 $pg = $_REQUEST['pg'] ?? '';
 $cat = $_REQUEST['cat'] ?? '';
-if (($pg == "") && ($cat == "")) $pg = 1;
+if (($pg == "") && ($cat == "")) $pg = "home";
 $opg = $pg . ".php";
 ?>
 <!DOCTYPE html>
@@ -31,7 +31,7 @@ $opg = $pg . ".php";
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
         <div class="container">
-            <a class="brand-wrapper" href="?pg=1">
+            <a class="brand-wrapper" href="?pg=home">
                 <img src="images/logo.PNG" alt="NICHE IPO Logo" height="52" style="max-height: 52px; width: auto;">
             </a>
 
@@ -45,7 +45,7 @@ $opg = $pg . ".php";
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="?pg=1">Home</a>
+                        <a class="nav-link" href="?pg=home">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="?pg=trademark">Trademark</a>
@@ -79,7 +79,7 @@ $opg = $pg . ".php";
     <!-- Main Content Area -->
     <div id="main-content">
         <?php 
-        if ($pg == "1" || ($pg == "" && $cat == "")) {
+        if ($pg == "home" || $pg == "1" || ($pg == "" && $cat == "")) {
             // Display Hero Section and Homepage Contents
         ?>
         
@@ -477,7 +477,7 @@ $opg = $pg . ".php";
                 <div class="footer-section-col">
                     <h5>Quick Links</h5>
                     <ul class="footer-links-list">
-                        <li class="footer-link-item"><a href="?pg=1">Home</a></li>
+                        <li class="footer-link-item"><a href="?pg=home">Home</a></li>
                         <li class="footer-link-item"><a href="#about">About Us</a></li>
                         <li class="footer-link-item"><a href="?pg=lnks#services">Our Services</a></li>
                         <li class="footer-link-item"><a href="#contact">Contact</a></li>
