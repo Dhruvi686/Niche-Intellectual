@@ -9,31 +9,11 @@
 
 <div id="TabbedPanels1" class="TabbedPanels">
   <ul class="TabbedPanelsTabGroup">
-    <li class="TabbedPanelsTab" tabindex="0">ISO</li>
-    <li class="TabbedPanelsTab" tabindex="0">ROC</li>
     <li class="TabbedPanelsTab" tabindex="0">CE</li>
     <li class="TabbedPanelsTab" tabindex="0">CCC</li>
     <li class="TabbedPanelsTab" tabindex="0">TAXES</li>
   </ul>
   <div class="TabbedPanelsContentGroup">
-    <div class="TabbedPanelsContent">
-    <?php 
-	$isosql="select * from cms where cmsid=6";
-	$isores=mysql_query($isosql, $lnk);
-	$isofres=mysql_fetch_assoc($isores);
-			
-	echo base64_decode($isofres['cms']);
-	?>
-    
-    </div>
-    <div class="TabbedPanelsContent">
-       <?php 
-	$rocsql="select * from cms where cmsid=7";
-	$rocres=mysql_query($rocsql, $lnk);
-	$rocfres=mysql_fetch_assoc($rocres);
-			
-	echo base64_decode($rocfres['cms']);
-	?></div>
     <div class="TabbedPanelsContent">
        <?php 
 	$cesql="select * from cms where cmsid=8";

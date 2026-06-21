@@ -45,22 +45,31 @@ $opg = $pg . ".php";
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
+                        <a class="nav-link" href="?pg=1">Home</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="?pg=trademark">Trademark</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="?pg=copyright">Copyright</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="?cat=4">Patent</a>
+                        <a class="nav-link" href="?pg=patent">Patent</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="?cat=5">Design</a>
+                        <a class="nav-link" href="?pg=design">Design</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="?pg=re">Real Estate</a>
+                        <a class="nav-link" href="?pg=gi">Geographical Indications</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="?pg=os">Other Services</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="profilesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Profiles
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="profilesDropdown">
+                            <li><a class="dropdown-item" href="?pg=profiles&tab=owner">Owner Profile</a></li>
+                            <li><a class="dropdown-item" href="?pg=profiles&tab=associates">Associates Profile</a></li>
+                        </ul>
                     </li>
                 </ul>
             </div>
@@ -252,7 +261,7 @@ $opg = $pg . ".php";
                                 <i class="fas fa-check-circle about-feature-icon"></i>
                                 <div class="about-feature-text-group">
                                     <h5>Corporate & Regulatory Consultations</h5>
-                                    <p>Additional advice on Company Registrations, ISO, CE & CCC Certifications, and Tax filings.</p>
+                                    <p>Additional advice on CE & CCC Certifications and Tax filings.</p>
                                 </div>
                             </div>
                         </div>
@@ -410,7 +419,7 @@ $opg = $pg . ".php";
         <?php
         } else {
             // Display other routing CMS / page contents dynamically
-            if ($pg == "trademark" || $pg == "copyright") {
+            if ($pg == "trademark" || $pg == "copyright" || $pg == "patent" || $pg == "design" || $pg == "gi" || $pg == "profiles") {
                 include $opg;
             } else {
         ?>
