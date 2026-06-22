@@ -384,7 +384,7 @@ $opg = $pg . ".php";
                     <span class="section-label" data-aos="fade-up">Get In Touch</span>
                     <h2 class="section-title-large" data-aos="fade-up" data-aos-delay="100">Send Us A Message</h2>
                     <p class="section-subtitle-text" data-aos="fade-up" data-aos-delay="200">
-                        Request a free consultation on patent filings or trademark protection services.
+                        Request a consultation on patent filings or trademark protection services.
                     </p>
                 </div>
 

@@ -37,9 +37,6 @@ if (!isset($pg)) {
                     <a href="#quick-tm-form" class="tm-btn-primary">
                         Apply Now <span class="arrow-icon"><i class="fa-solid fa-arrow-right"></i></span>
                     </a>
-                    <a href="#contact" class="tm-btn-secondary">
-                        Free Consultation <span class="arrow-icon"><i class="fa-solid fa-phone"></i></span>
-                    </a>
                 </div>
             </div>
         </div>
