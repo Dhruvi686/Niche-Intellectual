@@ -7,7 +7,7 @@
 <br>
 <table border="0" cellspacing="1" cellpadding="3" width="100%">
   <tr>
-    <td align="left" valign="top" style="background: linear-gradient(135deg, #b927fc 0%, #00f2fe 100%); color: #000000; font-family: var(--font-heading); font-weight: 800; padding: 0.75rem 1.25rem; letter-spacing: 0.5px; border-radius: 6px 6px 0 0;">OUR SUBSTANCE</td>
+    <td align="left" valign="top" style="background: linear-gradient(135deg, #ffb800 0%, #00f2fe 100%); color: #000000; font-family: var(--font-heading); font-weight: 800; padding: 0.75rem 1.25rem; letter-spacing: 0.5px; border-radius: 6px 6px 0 0;">OUR SUBSTANCE</td>
   </tr>
   <tr>
     <td align="left" valign="top" id="cnt">Our attorneys are    seasoned real estate professionals:</td>
@@ -17,7 +17,7 @@
 <br>
 <table border="0" cellspacing="1" cellpadding="3" width="100%">
   <tr>
-    <td align="left" valign="top" style="background: linear-gradient(135deg, #b927fc 0%, #00f2fe 100%); color: #000000; font-family: var(--font-heading); font-weight: 800; padding: 0.75rem 1.25rem; letter-spacing: 0.5px; border-radius: 6px 6px 0 0;">REAL ESTATE IN INDIA</td>
+    <td align="left" valign="top" style="background: linear-gradient(135deg, #ffb800 0%, #00f2fe 100%); color: #000000; font-family: var(--font-heading); font-weight: 800; padding: 0.75rem 1.25rem; letter-spacing: 0.5px; border-radius: 6px 6px 0 0;">REAL ESTATE IN INDIA</td>
   </tr>
   <tr>
     <td align="left" valign="top"><div align="justify" id="cnt">The Indian real estate sector is witnessing a quiet    revolution, owing to a flourishing economy and a positive government    attitude, which includes a liberalized foreign direct investment regime. The    realty sector, which is growing at an amazing 35 per cent, is estimated to be    worth US$ 15 billion. It is also expected to grow at 30 per cent annually    over the next decade, attracting foreign investments worth US$ 30 billion.    This double-digit growth is mainly attributed to the off-shoring business,    including high-end technology consulting, call centers and software    businesses. The IT and ITES sector is estimated to require 150 million sq ft    of office space across urban India by 2010. This will    have a domino effect since for every sq ft of developed office area around 10    sq ft of residential space needs to be developed for accommodation of the    employees. <br>

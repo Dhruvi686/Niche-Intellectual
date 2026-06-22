@@ -6,7 +6,7 @@ if (!isset($pg)) {
 }
 ?>
 <!-- Custom Page-Specific Stylesheet -->
-<link href="css/copyright-style.css" rel="stylesheet">
+<link href="css/copyright-style.css?v=1.1" rel="stylesheet">
 
 <div class="cr-page-wrapper">
     

@@ -6,7 +6,7 @@ if (!isset($pg)) {
 }
 ?>
 <!-- Custom Page-Specific Stylesheet (Reusing Trademark styles for visual consistency) -->
-<link href="css/trademark-style.css" rel="stylesheet">
+<link href="css/trademark-style.css?v=1.1" rel="stylesheet">
 
 <style>
     /* Custom style overrides for GI Table and Comparison Cards */
@@ -24,7 +24,7 @@ if (!isset($pg)) {
         border-collapse: collapse;
     }
     .gi-table th {
-        background: rgba(185, 39, 252, 0.15);
+        background: rgba(255, 184, 0, 0.15);
         color: var(--tm-accent-blue);
         font-family: 'Plus Jakarta Sans', sans-serif;
         font-weight: 700;
@@ -42,7 +42,7 @@ if (!isset($pg)) {
         background: rgba(255, 255, 255, 0.02);
     }
     .gi-badge {
-        background: linear-gradient(135deg, rgba(185, 39, 252, 0.2), rgba(0, 242, 254, 0.2));
+        background: linear-gradient(135deg, rgba(255, 184, 0, 0.2), rgba(0, 242, 254, 0.2));
         color: var(--tm-accent-blue);
         border: 1px solid rgba(0, 242, 254, 0.3);
         padding: 0.25rem 0.75rem;
@@ -251,8 +251,8 @@ if (!isset($pg)) {
                 </div>
                 
                 <div class="tm-glass-card p-5" data-aos="fade-left">
-                    <div class="tm-card-icon-box" style="background: rgba(185, 39, 252, 0.1); border-color: var(--tm-accent-purple);">
-                        <i class="fa-solid fa-map-location-dot text-purple" style="color:#b927fc;"></i>
+                    <div class="tm-card-icon-box" style="background: rgba(255, 184, 0, 0.1); border-color: var(--tm-accent-gold);">
+                        <i class="fa-solid fa-map-location-dot text-gold" style="color:#ffb800;"></i>
                     </div>
                     <h4 class="text-white mb-3">Geographical Indication (GI)</h4>
                     <p class="text-white opacity-75 mb-3" style="line-height: 1.7;">

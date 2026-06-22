@@ -95,9 +95,9 @@ function initializeTopographicWaves() {
     function getInterpolatedColor(scale, type) {
         let c1, c2, c3;
         if (type === 'kidney') {
-            // Innermost: Vibrant Pink (#f04be6) -> Middle: Purple/Violet (#8c5af0) -> Outermost: Light Blue (#82aff5)
+            // Innermost: Vibrant Pink (#f04be6) -> Middle: Gold (#ffb800) -> Outermost: Light Blue (#82aff5)
             c1 = [240, 75, 230];
-            c2 = [140, 90, 240];
+            c2 = [255, 184, 0];
             c3 = [130, 175, 245];
         } else {
             // Innermost: Dark Indigo (#281e50) -> Middle: Indigo/Blue (#5a64e6) -> Outermost: Glowing Sky Blue (#73afff)

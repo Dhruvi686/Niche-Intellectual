@@ -24,7 +24,7 @@ $opg = $pg . ".php";
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     
     <!-- Custom Modern Stylesheet -->
-    <link href="css/modern-style.css" rel="stylesheet">
+    <link href="css/modern-style.css?v=1.1" rel="stylesheet">
 </head>
 <body>
 
@@ -271,21 +271,21 @@ $opg = $pg . ".php";
                         <svg viewBox="0 0 200 200" class="about-graphic-svg" xmlns="http://www.w3.org/2000/svg">
                             <defs>
                                 <linearGradient id="grad-gold" x1="0%" y1="0%" x2="100%" y2="100%">
-                                    <stop offset="0%" style="stop-color:#b927fc; stop-opacity:1" />
+                                    <stop offset="0%" style="stop-color:#ffb800; stop-opacity:1" />
                                     <stop offset="50%" style="stop-color:#00f2fe; stop-opacity:0.8" />
                                     <stop offset="100%" style="stop-color:#00f2fe; stop-opacity:0.2" />
                                 </linearGradient>
                                 <linearGradient id="grad-shield" x1="0%" y1="0%" x2="0%" y2="100%">
-                                    <stop offset="0%" style="stop-color:rgba(185, 39, 252, 0.2);" />
+                                    <stop offset="0%" style="stop-color:rgba(255, 184, 0, 0.2);" />
                                     <stop offset="100%" style="stop-color:rgba(12, 12, 18, 0.75);" />
                                 </linearGradient>
                                 <radialGradient id="grad-glow" cx="50%" cy="50%" r="50%">
-                                    <stop offset="0%" style="stop-color:#b927fc; stop-opacity:0.25" />
+                                    <stop offset="0%" style="stop-color:#ffb800; stop-opacity:0.25" />
                                     <stop offset="100%" style="stop-color:#050508; stop-opacity:0" />
                                 </radialGradient>
                                 <radialGradient id="core-glow" cx="50%" cy="50%" r="50%">
                                     <stop offset="0%" style="stop-color:#00f2fe; stop-opacity:0.8" />
-                                    <stop offset="100%" style="stop-color:#b927fc; stop-opacity:0" />
+                                    <stop offset="100%" style="stop-color:#ffb800; stop-opacity:0" />
                                 </radialGradient>
                                 <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
                                     <feGaussianBlur stdDeviation="3" result="blur" />
@@ -302,7 +302,7 @@ $opg = $pg . ".php";
                             <!-- HUD Radar Rings (Static & Slowly Rotating Outer Circles) -->
                             <g class="hud-container">
                                 <circle cx="100" cy="100" r="92" fill="none" stroke="rgba(0, 242, 254, 0.15)" stroke-width="0.75" stroke-dasharray="1 8" class="hud-dots" />
-                                <circle cx="100" cy="100" r="85" fill="none" stroke="rgba(185, 39, 252, 0.25)" stroke-width="1.2" stroke-dasharray="25 15 5 15" class="hud-outer-ring" />
+                                <circle cx="100" cy="100" r="85" fill="none" stroke="rgba(255, 184, 0, 0.25)" stroke-width="1.2" stroke-dasharray="25 15 5 15" class="hud-outer-ring" />
                                 <circle cx="100" cy="100" r="78" fill="none" stroke="rgba(255, 255, 255, 0.08)" stroke-width="0.75" stroke-dasharray="8 4" class="hud-inner-ring" />
                                 
                                 <!-- Crosshair Ticks -->
@@ -330,7 +330,7 @@ $opg = $pg . ".php";
 
                                 <!-- Gyro Orbit 3 (Vertical Axis) -->
                                 <g class="gyro-ring-group gyro-3">
-                                    <ellipse cx="100" cy="100" rx="72" ry="24" fill="none" stroke="rgba(185, 39, 252, 0.3)" stroke-width="1" />
+                                    <ellipse cx="100" cy="100" rx="72" ry="24" fill="none" stroke="rgba(255, 184, 0, 0.3)" stroke-width="1" />
                                     <!-- Orbiting Node -->
                                     <circle cx="100" cy="28" r="2.5" fill="#ffffff" />
                                 </g>
@@ -350,7 +350,7 @@ $opg = $pg . ".php";
                                     
                                     <!-- Traveling Data Pulses -->
                                     <path d="M 100 95 L 85 80 L 85 70" stroke="#ffffff" stroke-width="1.2" stroke-dasharray="10 30" class="data-pulse-1" filter="url(#glow)" />
-                                    <path d="M 100 95 L 115 80 L 115 70" stroke="#b927fc" stroke-width="1.2" stroke-dasharray="10 30" class="data-pulse-2" filter="url(#glow)" />
+                                    <path d="M 100 95 L 115 80 L 115 70" stroke="#ffb800" stroke-width="1.2" stroke-dasharray="10 30" class="data-pulse-2" filter="url(#glow)" />
                                     <path d="M 100 95 L 100 115" stroke="#ffffff" stroke-width="1.2" stroke-dasharray="5 20" class="data-pulse-3" filter="url(#glow)" />
                                 </g>
                                 
@@ -366,10 +366,10 @@ $opg = $pg . ".php";
 
                             <!-- Constellation Nodes (Floating background particles) -->
                             <g class="network-nodes">
-                                <circle cx="42" cy="45" r="2" fill="#b927fc" class="float-node-1" />
+                                <circle cx="42" cy="45" r="2" fill="#ffb800" class="float-node-1" />
                                 <circle cx="158" cy="45" r="2" fill="#ffffff" class="float-node-2" />
                                 <circle cx="35" cy="145" r="2.5" fill="#ffffff" class="float-node-3" />
-                                <circle cx="165" cy="145" r="2.5" fill="#b927fc" class="float-node-4" />
+                                <circle cx="165" cy="145" r="2.5" fill="#ffb800" class="float-node-4" />
                             </g>
                         </svg>
                     </div>
@@ -527,7 +527,7 @@ $opg = $pg . ".php";
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     
     <!-- Custom Modern Script -->
-    <script src="js/modern-script.js"></script>
+    <script src="js/modern-script.js?v=1.1"></script>
 
 </body>
 </html>

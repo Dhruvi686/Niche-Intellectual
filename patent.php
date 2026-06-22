@@ -6,7 +6,7 @@ if (!isset($pg)) {
 }
 ?>
 <!-- Custom Page-Specific Stylesheet (Reusing Trademark styles for visual consistency) -->
-<link href="css/trademark-style.css" rel="stylesheet">
+<link href="css/trademark-style.css?v=1.1" rel="stylesheet">
 
 <div class="tm-page-wrapper">
     
@@ -257,7 +257,7 @@ if (!isset($pg)) {
             <!-- Custom Horizontal Timeline -->
             <div class="row g-4 justify-content-center mt-4">
                 <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="50">
-                    <div class="tm-glass-card p-4 text-center h-100" style="border-top: 3px solid var(--tm-accent-purple);">
+                    <div class="tm-glass-card p-4 text-center h-100" style="border-top: 3px solid var(--tm-accent-gold);">
                         <div class="text-info font-monospace mb-2" style="font-size: 0.9rem; letter-spacing: 2px;">STEP 01</div>
                         <h5 class="text-white mb-2">Search & Analysis</h5>
                         <p class="text-white opacity-50 small mb-0">Prior art assessment to check novelty and avoid conflict with existing registrations.</p>
@@ -273,7 +273,7 @@ if (!isset($pg)) {
                 </div>
 
                 <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="150">
-                    <div class="tm-glass-card p-4 text-center h-100" style="border-top: 3px solid var(--tm-accent-purple);">
+                    <div class="tm-glass-card p-4 text-center h-100" style="border-top: 3px solid var(--tm-accent-gold);">
                         <div class="text-info font-monospace mb-2" style="font-size: 0.9rem; letter-spacing: 2px;">STEP 03</div>
                         <h5 class="text-white mb-2">Filing Application</h5>
                         <p class="text-white opacity-50 small mb-0">Submitting the formal patent application to the Indian Patent Office (Form 1 & 2).</p>
@@ -291,7 +291,7 @@ if (!isset($pg)) {
 
             <div class="row g-4 justify-content-center mt-3">
                 <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="250">
-                    <div class="tm-glass-card p-4 text-center h-100" style="border-top: 3px solid var(--tm-accent-purple);">
+                    <div class="tm-glass-card p-4 text-center h-100" style="border-top: 3px solid var(--tm-accent-gold);">
                         <div class="text-info font-monospace mb-2" style="font-size: 0.9rem; letter-spacing: 2px;">STEP 05</div>
                         <h5 class="text-white mb-2">Examination</h5>
                         <p class="text-white opacity-50 small mb-0">Filing Request for Examination (RFE). The Patent Examiner reviews the specification for criteria compliance.</p>
@@ -307,7 +307,7 @@ if (!isset($pg)) {
                 </div>
 
                 <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="350">
-                    <div class="tm-glass-card p-4 text-center h-100" style="border-top: 3px solid var(--tm-accent-purple);">
+                    <div class="tm-glass-card p-4 text-center h-100" style="border-top: 3px solid var(--tm-accent-gold);">
                         <div class="text-info font-monospace mb-2" style="font-size: 0.9rem; letter-spacing: 2px;">STEP 07</div>
                         <h5 class="text-white mb-2">Grant & Certification</h5>
                         <p class="text-white opacity-50 small mb-0">Upon resolving all objections, the patent is officially granted, and the certificate is issued.</p>

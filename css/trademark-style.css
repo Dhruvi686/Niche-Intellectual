@@ -1,6 +1,6 @@
 /* ==========================================================================
    NICHE IPO - Premium Trademark Registration Stylesheet
-   Futuristic dark theme with neon blue and purple glow effects (Stripe/Vercel style)
+   Futuristic dark theme with neon blue and gold glow effects (Stripe/Vercel style)
    ========================================================================== */
 
 /* Variables */
@@ -8,14 +8,21 @@
     --tm-bg-black: #050816;
     --tm-bg-dark-card: #0b0f26;
     --tm-accent-blue: #00f2fe;
-    --tm-accent-purple: #b927fc;
+    --tm-accent-gold: #ffb800;
     --tm-border-glass: rgba(255, 255, 255, 0.05);
     --tm-text-white: #ffffff;
     --tm-text-muted: #94a3b8;
     --tm-text-dim: #64748b;
     
     --tm-glow-blue: rgba(0, 242, 254, 0.35);
-    --tm-glow-purple: rgba(185, 39, 252, 0.35);
+    --tm-glow-gold: rgba(255, 184, 0, 0.35);
+}
+
+.text-gold {
+    color: var(--tm-accent-gold) !important;
+}
+.bg-gold {
+    background-color: var(--tm-accent-gold) !important;
 }
 
 /* Page Wrapper overrides */
@@ -51,7 +58,7 @@
     left: -10%;
     width: 700px;
     height: 700px;
-    background: radial-gradient(circle, rgba(185, 39, 252, 0.08) 0%, rgba(185, 39, 252, 0) 70%);
+    background: radial-gradient(circle, rgba(255, 184, 0, 0.08) 0%, rgba(255, 184, 0, 0) 70%);
 }
 
 .tm-glow-orb-3 {
@@ -71,6 +78,10 @@
 
 .tm-section-first {
     padding-top: 150px;
+    background-image: linear-gradient(180deg, rgba(5, 5, 8, 0.5) 0%, rgba(5, 5, 8, 0.88) 100%), url('../images/skyscraper_facade.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 /* Typography elements */
@@ -84,7 +95,7 @@
 .tm-tagline-line {
     width: 40px;
     height: 1.5px;
-    background: linear-gradient(90deg, var(--tm-accent-blue), var(--tm-accent-purple));
+    background: linear-gradient(90deg, var(--tm-accent-blue), var(--tm-accent-gold));
     display: inline-block;
 }
 
@@ -109,7 +120,7 @@
 }
 
 .tm-text-gradient {
-    background: linear-gradient(135deg, var(--tm-accent-blue) 0%, var(--tm-accent-purple) 100%);
+    background: linear-gradient(135deg, var(--tm-accent-blue) 0%, var(--tm-accent-gold) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     display: inline-block;
@@ -153,7 +164,7 @@
 }
 
 .tm-btn-primary {
-    background: linear-gradient(135deg, var(--tm-accent-blue) 0%, var(--tm-accent-purple) 100%);
+    background: linear-gradient(135deg, var(--tm-accent-blue) 0%, var(--tm-accent-gold) 100%);
     border: none;
     border-radius: 50px;
     padding: 0.95rem 2.25rem;
@@ -172,7 +183,7 @@
 
 .tm-btn-primary:hover {
     transform: translateY(-3px);
-    box-shadow: 0 15px 35px rgba(0, 242, 254, 0.5), 0 0 20px rgba(185, 39, 252, 0.4);
+    box-shadow: 0 15px 35px rgba(0, 242, 254, 0.5), 0 0 20px rgba(255, 184, 0, 0.4);
     filter: brightness(1.1);
     color: #000000 !important;
 }
@@ -238,7 +249,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(135deg, rgba(0, 242, 254, 0.05), rgba(185, 39, 252, 0.05));
+    background: linear-gradient(135deg, rgba(0, 242, 254, 0.05), rgba(255, 184, 0, 0.05));
     opacity: 0;
     transition: opacity 0.45s ease;
     z-index: -1;
@@ -271,7 +282,7 @@
 }
 
 .tm-glass-card:hover .tm-card-icon-box {
-    background: linear-gradient(135deg, var(--tm-accent-blue) 0%, var(--tm-accent-purple) 100%);
+    background: linear-gradient(135deg, var(--tm-accent-blue) 0%, var(--tm-accent-gold) 100%);
     border-color: transparent;
     color: #000000;
     box-shadow: 0 0 20px rgba(0, 242, 254, 0.35);
@@ -315,7 +326,7 @@
     left: -1px;
     right: -1px;
     bottom: -1px;
-    background: linear-gradient(135deg, var(--tm-accent-blue), var(--tm-accent-purple));
+    background: linear-gradient(135deg, var(--tm-accent-blue), var(--tm-accent-gold));
     border-radius: 21px;
     z-index: -1;
     opacity: 0.15;
@@ -324,7 +335,7 @@
 
 .tm-gradient-border-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.35), 0 0 25px rgba(185, 39, 252, 0.08);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.35), 0 0 25px rgba(255, 184, 0, 0.08);
 }
 
 .tm-gradient-border-card:hover::before {
@@ -340,15 +351,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--tm-accent-purple);
+    color: var(--tm-accent-gold);
     font-size: 1.15rem;
     flex-shrink: 0;
     transition: all 0.3s ease;
 }
 
 .tm-gradient-border-card:hover .card-icon-round {
-    background: rgba(185, 39, 252, 0.15);
-    border-color: var(--tm-accent-purple);
+    background: rgba(255, 184, 0, 0.15);
+    border-color: var(--tm-accent-gold);
     color: #ffffff;
     transform: scale(1.05);
 }
@@ -391,7 +402,7 @@
     font-size: 2.25rem;
     color: var(--tm-accent-blue);
     margin-bottom: 1.25rem;
-    background: linear-gradient(135deg, var(--tm-accent-blue), var(--tm-accent-purple));
+    background: linear-gradient(135deg, var(--tm-accent-blue), var(--tm-accent-gold));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     transition: all 0.3s ease;
@@ -482,22 +493,22 @@
 
 .tm-doc-card:hover {
     background: rgba(255, 255, 255, 0.025);
-    border-color: rgba(185, 39, 252, 0.25);
+    border-color: rgba(255, 184, 0, 0.25);
 }
 
 .tm-doc-num {
     width: 42px;
     height: 42px;
     border-radius: 12px;
-    background: rgba(185, 39, 252, 0.1);
-    border: 1px solid rgba(185, 39, 252, 0.25);
+    background: rgba(255, 184, 0, 0.1);
+    border: 1px solid rgba(255, 184, 0, 0.25);
     display: flex;
     align-items: center;
     justify-content: center;
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 1.15rem;
     font-weight: 700;
-    color: var(--tm-accent-purple);
+    color: var(--tm-accent-gold);
     flex-shrink: 0;
 }
 
@@ -536,7 +547,7 @@
 .tm-timeline-flow-line-progress {
     width: 100%;
     height: 100%;
-    background: linear-gradient(90deg, var(--tm-accent-blue) 0%, var(--tm-accent-purple) 50%, var(--tm-accent-blue) 100%);
+    background: linear-gradient(90deg, var(--tm-accent-blue) 0%, var(--tm-accent-gold) 50%, var(--tm-accent-blue) 100%);
     background-size: 200% auto;
     animation: flowPulse 4s linear infinite;
 }
@@ -605,13 +616,13 @@
 }
 
 .tm-timeline-step:nth-child(even):hover .tm-timeline-node {
-    border-color: var(--tm-accent-purple);
-    color: var(--tm-accent-purple);
-    box-shadow: 0 0 25px rgba(185, 39, 252, 0.3);
+    border-color: var(--tm-accent-gold);
+    color: var(--tm-accent-gold);
+    box-shadow: 0 0 25px rgba(255, 184, 0, 0.3);
 }
 
 .tm-timeline-step:nth-child(even):hover .tm-timeline-node::after {
-    border-color: rgba(185, 39, 252, 0.2);
+    border-color: rgba(255, 184, 0, 0.2);
 }
 
 .tm-timeline-content h5 {
@@ -637,7 +648,7 @@
     padding: 4.5rem;
     border-radius: 28px;
     border: 1px solid var(--tm-border-glass);
-    background: radial-gradient(circle at 100% 0%, rgba(185, 39, 252, 0.06) 0%, transparent 50%),
+    background: radial-gradient(circle at 100% 0%, rgba(255, 184, 0, 0.06) 0%, transparent 50%),
                 radial-gradient(circle at 0% 100%, rgba(0, 242, 254, 0.06) 0%, transparent 50%),
                 rgba(8, 12, 36, 0.3);
     backdrop-filter: blur(20px);
@@ -722,7 +733,7 @@
 
 .tm-btn-submit {
     width: 100%;
-    background: linear-gradient(90deg, var(--tm-accent-blue) 0%, var(--tm-accent-purple) 100%);
+    background: linear-gradient(90deg, var(--tm-accent-blue) 0%, var(--tm-accent-gold) 100%);
     border: none;
     color: #000000;
     padding: 1rem;
@@ -740,7 +751,7 @@
 
 .tm-btn-submit:hover {
     transform: translateY(-2px);
-    box-shadow: 0 10px 30px rgba(0, 242, 254, 0.4), 0 0 15px rgba(185, 39, 252, 0.3);
+    box-shadow: 0 10px 30px rgba(0, 242, 254, 0.4), 0 0 15px rgba(255, 184, 0, 0.3);
     filter: brightness(1.1);
 }
 

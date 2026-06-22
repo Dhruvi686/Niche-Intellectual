@@ -6,7 +6,7 @@ if (!isset($pg)) {
 }
 ?>
 <!-- Custom Page-Specific Stylesheet (Reusing Trademark styles for visual consistency) -->
-<link href="css/trademark-style.css" rel="stylesheet">
+<link href="css/trademark-style.css?v=1.1" rel="stylesheet">
 
 <div class="tm-page-wrapper">
     
@@ -66,7 +66,7 @@ if (!isset($pg)) {
                     </p>
                 </div>
                 <div class="col-lg-6" data-aos="fade-left">
-                    <div class="tm-glass-card p-5" style="border-left: 4px solid var(--tm-accent-purple);">
+                    <div class="tm-glass-card p-5" style="border-left: 4px solid var(--tm-accent-gold);">
                         <div class="tm-tagline-wrap">
                             <span class="tm-tagline-line"></span>
                             <span class="tm-tagline">Why File?</span>
@@ -192,7 +192,7 @@ if (!isset($pg)) {
 
                 <!-- Right: What Cannot Be Registered -->
                 <div class="col-lg-6" data-aos="fade-left">
-                    <div class="tm-glass-card p-5 h-100" style="border-top: 4px solid var(--tm-accent-purple);">
+                    <div class="tm-glass-card p-5 h-100" style="border-top: 4px solid var(--tm-accent-gold);">
                         <h4 class="text-white mb-4"><i class="fa-solid fa-circle-xmark text-danger me-2"></i> What Cannot Be Registered?</h4>
                         <p class="text-white opacity-75 mb-4">The following elements are generally excluded from design registration:</p>
                         <ul class="list-unstyled text-white opacity-75 ps-2">
@@ -226,7 +226,7 @@ if (!isset($pg)) {
                     
                     <div class="ps-3 border-start border-secondary">
                         <div class="mb-4 position-relative">
-                            <span class="badge bg-purple position-absolute" style="left: -29px; top: 4px; width: 12px; height: 12px; border-radius: 50%;"></span>
+                            <span class="badge bg-gold position-absolute" style="left: -29px; top: 4px; width: 12px; height: 12px; border-radius: 50%;"></span>
                             <h6 class="text-white mb-1">1. Design Search & Assessment</h6>
                             <p class="text-white opacity-50 small">Ensure your visual design satisfies novelty benchmarks prior to formal filing.</p>
                         </div>
@@ -238,7 +238,7 @@ if (!isset($pg)) {
                         </div>
 
                         <div class="mb-4 position-relative">
-                            <span class="badge bg-purple position-absolute" style="left: -29px; top: 4px; width: 12px; height: 12px; border-radius: 50%;"></span>
+                            <span class="badge bg-gold position-absolute" style="left: -29px; top: 4px; width: 12px; height: 12px; border-radius: 50%;"></span>
                             <h6 class="text-white mb-1">3. Filing Application</h6>
                             <p class="text-white opacity-50 small">Formal submission of the application to the Designs Registry (Kolkata).</p>
                         </div>
@@ -250,7 +250,7 @@ if (!isset($pg)) {
                         </div>
 
                         <div class="mb-4 position-relative">
-                            <span class="badge bg-purple position-absolute" style="left: -29px; top: 4px; width: 12px; height: 12px; border-radius: 50%;"></span>
+                            <span class="badge bg-gold position-absolute" style="left: -29px; top: 4px; width: 12px; height: 12px; border-radius: 50%;"></span>
                             <h6 class="text-white mb-1">5. Objections & Response</h6>
                             <p class="text-white opacity-50 small">Promptly drafting and submitting replies to examiner objection reports, if any.</p>
                         </div>
