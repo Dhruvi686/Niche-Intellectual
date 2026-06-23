@@ -174,7 +174,7 @@ $activeTab = isset($_REQUEST['tab']) && $_REQUEST['tab'] === 'associates' ? 'ass
             <!-- Tabs Navigation -->
             <div class="profile-tabs-nav" data-aos="fade-up" data-aos-delay="100">
                 <button class="profile-tab-btn <?php echo $activeTab === 'owner' ? 'active' : ''; ?>" onclick="switchProfileTab('owner')">
-                    <i class="fa-solid fa-user-tie me-2"></i> Owner Profile
+                    <i class="fa-solid fa-user-tie me-2"></i> Leadership Profiles
                 </button>
                 <button class="profile-tab-btn <?php echo $activeTab === 'associates' ? 'active' : ''; ?>" onclick="switchProfileTab('associates')">
                     <i class="fa-solid fa-earth-asia me-2"></i> Associates Profile
@@ -184,13 +184,15 @@ $activeTab = isset($_REQUEST['tab']) && $_REQUEST['tab'] === 'associates' ? 'ass
             <!-- Tab Content Panes -->
             <div class="profile-tabs-content">
                 
-                <!-- PANE 1: OWNER PROFILE -->
+                <!-- PANE 1: OWNER / LEADERSHIP PROFILE -->
                 <div id="pane-owner" class="profile-content-pane <?php echo $activeTab === 'owner' ? 'active' : ''; ?>">
+                    
+                    <!-- Niloy Kumar Gupta Card -->
                     <div class="owner-card">
                         <div class="row align-items-center g-5">
                             <div class="col-lg-4 text-center">
                                 <div class="owner-img-wrap mx-auto" style="max-width: 280px;">
-                                    <img src="images/attorney.jpg" alt="Niloy Kumar Gupta" class="owner-img">
+                                    <img src="images/niloy_kumar_gupta.jpg" alt="Niloy Kumar Gupta" class="owner-img">
                                 </div>
                             </div>
                             <div class="col-lg-8">
@@ -211,6 +213,74 @@ $activeTab = isset($_REQUEST['tab']) && $_REQUEST['tab'] === 'associates' ? 'ass
                             </div>
                         </div>
                     </div>
+
+                    <!-- Adv. Shumanto Gupta Card -->
+                    <div class="owner-card mt-5">
+                        <div class="row align-items-center g-5">
+                            <div class="col-lg-4 text-center">
+                                <div class="owner-img-wrap mx-auto" style="max-width: 280px;">
+                                    <img src="images/shumanto_gupta.jpg" alt="Adv. Shumanto Gupta" class="owner-img">
+                                </div>
+                            </div>
+                            <div class="col-lg-8">
+                                <span class="text-info font-monospace small d-block mb-2" style="letter-spacing: 2px;">LEGAL PARTNER</span>
+                                <h2 class="text-white mb-2" style="font-family: var(--tm-font-heading); font-weight: 800;">Adv. Shumanto Gupta</h2>
+                                <h6 class="text-white opacity-50 mb-4">Senior Intellectual Property Advocate & Attorney &bull; Legal Partner of NICHE IPO</h6>
+                                
+                                <p class="text-white opacity-75 mb-3" style="line-height: 1.8; font-size: 1.05rem;">
+                                    With nearly two decades of dedicated practice since 2006, Adv. Shumanto Gupta is a seasoned Intellectual Property professional specializing in Trade Marks, Copyrights, and complex IP litigation. He has successfully advised and represented clients across a wide spectrum of industries, helping businesses protect, enforce, and maximize the value of their intellectual assets.
+                                </p>
+                                <p class="text-white opacity-75 mb-3" style="line-height: 1.8; font-size: 1.05rem;">
+                                    A recognized participant in the global IP community, he has attended and represented India at numerous international seminars, conferences, and intellectual property forums worldwide, gaining valuable insight into both domestic and international IP developments.
+                                </p>
+                                <p class="text-white opacity-75 mb-3" style="line-height: 1.8; font-size: 1.05rem;">
+                                    Whether safeguarding a startup’s first brand, defending valuable intellectual property rights, or handling high-stakes litigation, Adv. Gupta combines legal expertise, strategic thinking, and practical solutions to help clients build and protect their competitive advantage in an increasingly innovation-driven world.
+                                </p>
+                                
+                                <div class="mt-4 p-4 rounded" style="background: rgba(255, 255, 255, 0.02); border: 1px solid rgba(255, 255, 255, 0.05); border-left: 4px solid var(--tm-accent-gold);">
+                                    <p class="fst-italic text-white mb-0" style="font-size: 1.1rem; line-height: 1.6;">
+                                        &ldquo;Protecting Ideas. Preserving Innovation. Securing Brand Value.&rdquo;
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Mrs. Shibani Das Gupta Card -->
+                    <div class="owner-card mt-5">
+                        <div class="row align-items-center g-5">
+                            <div class="col-lg-4 text-center">
+                                <div class="owner-img-wrap mx-auto" style="max-width: 280px;">
+                                    <img src="images/shibani_das_gupta.jpg" alt="Mrs. Shibani Das Gupta" class="owner-img">
+                                </div>
+                            </div>
+                            <div class="col-lg-8">
+                                <span class="text-info font-monospace small d-block mb-2" style="letter-spacing: 2px;">SENIOR PATENT AGENT & SPECIALIST</span>
+                                <h2 class="text-white mb-2" style="font-family: var(--tm-font-heading); font-weight: 800;">Mrs. Shibani Das Gupta</h2>
+                                <h6 class="text-white opacity-50 mb-4">Senior Patent Agent &bull; Patent & Design Specialist</h6>
+                                
+                                <p class="text-white opacity-75 mb-3" style="line-height: 1.8; font-size: 1.05rem;">
+                                    Shibani Das Gupta is a highly experienced Senior Patent Agent with over 30 years of distinguished practice in the field of Intellectual Property Rights. Renowned for her extensive knowledge of Patent and Industrial Design law, she has assisted innovators, startups, research institutions, and businesses in securing and protecting their valuable intellectual assets.
+                                </p>
+                                <p class="text-white opacity-75 mb-3" style="line-height: 1.8; font-size: 1.05rem;">
+                                    Her expertise encompasses patent and design drafting, specification preparation, prosecution, responding to examination reports, handling objections, and representing applicants during hearings before the relevant Intellectual Property authorities. Her meticulous approach, technical understanding, and strategic insight have contributed to the successful protection of numerous inventions and designs across diverse industries.
+                                </p>
+                                <p class="text-white opacity-75 mb-3" style="line-height: 1.8; font-size: 1.05rem;">
+                                    With a strong commitment to excellence and innovation, Mrs. Das Gupta has built a reputation for delivering precise, commercially focused, and legally robust intellectual property solutions. Her ability to navigate complex patent and design matters makes her a trusted advisor to inventors and enterprises seeking comprehensive IP protection.
+                                </p>
+                                <p class="text-white opacity-75 mb-3" style="line-height: 1.8; font-size: 1.05rem;">
+                                    A respected professional in the Intellectual Property community, Mrs. Das Gupta continues to play a vital role in advancing innovation by helping creators secure, enforce, and maximize the value of their intellectual property rights. Her vast experience, dedication, and technical proficiency make her an invaluable asset to both our firm and the Intellectual Property industry.
+                                </p>
+                                
+                                <div class="mt-4 p-4 rounded" style="background: rgba(255, 255, 255, 0.02); border: 1px solid rgba(255, 255, 255, 0.05); border-left: 4px solid var(--tm-accent-gold);">
+                                    <p class="fst-italic text-white mb-0" style="font-size: 1.1rem; line-height: 1.6;">
+                                        &ldquo;Transforming Innovation into Protected Intellectual Assets.&rdquo;
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
 
                 <!-- PANE 2: ASSOCIATES PROFILE -->

@@ -32,7 +32,7 @@ $opg = $pg . ".php";
     <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
         <div class="container">
             <a class="brand-wrapper" href="?pg=home">
-                <img src="images/logo.PNG" alt="NICHE IPO Logo" height="52" style="max-height: 52px; width: auto;">
+                <img src="images/logo.png" alt="NICHE IPO Logo" height="52" style="max-height: 52px; width: auto;">
             </a>
 
             <!-- Hamburger toggle menu -->
@@ -67,7 +67,7 @@ $opg = $pg . ".php";
                             Profiles
                         </a>
                         <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="profilesDropdown">
-                            <li><a class="dropdown-item" href="?pg=profiles&tab=owner">Owner Profile</a></li>
+                            <li><a class="dropdown-item" href="?pg=profiles&tab=owner">Leadership Profiles</a></li>
                             <li><a class="dropdown-item" href="?pg=profiles&tab=associates">Associates Profile</a></li>
                         </ul>
                     </li>
@@ -459,17 +459,8 @@ $opg = $pg . ".php";
                         NICHE Intellectual Property Offices provides comprehensive intellectual property protection, legal support, and global filing audits.
                     </p>
                     <div class="footer-social-icons">
-                        <a href="#" class="footer-social-btn" title="Facebook" aria-label="Facebook logo link">
-                            <i class="fab fa-facebook-f"></i>
-                        </a>
-                        <a href="#" class="footer-social-btn" title="Twitter" aria-label="Twitter logo link">
-                            <i class="fab fa-twitter"></i>
-                        </a>
-                        <a href="#" class="footer-social-btn" title="LinkedIn" aria-label="LinkedIn logo link">
+                        <a href="https://www.linkedin.com/in/shumanto-gupta-9b80b851?utm_source=share_via&utm_content=profile&utm_medium=member_ios" target="_blank" class="footer-social-btn" title="LinkedIn" aria-label="LinkedIn logo link">
                             <i class="fab fa-linkedin-in"></i>
-                        </a>
-                        <a href="#" class="footer-social-btn" title="Instagram" aria-label="Instagram logo link">
-                            <i class="fab fa-instagram"></i>
                         </a>
                     </div>
                 </div>
@@ -479,17 +470,7 @@ $opg = $pg . ".php";
                     <ul class="footer-links-list">
                         <li class="footer-link-item"><a href="?pg=home">Home</a></li>
                         <li class="footer-link-item"><a href="#about">About Us</a></li>
-                        <li class="footer-link-item"><a href="?pg=lnks#services">Our Services</a></li>
                         <li class="footer-link-item"><a href="#contact">Contact</a></li>
-                    </ul>
-                </div>
-
-                <div class="footer-section-col">
-                    <h5>Legal</h5>
-                    <ul class="footer-links-list">
-                        <li class="footer-link-item"><a href="?cat=11">Disclaimer</a></li>
-                        <li class="footer-link-item"><a href="?cat=12">Terms & Conditions</a></li>
-                        <li class="footer-link-item"><a href="?cat=13">Privacy Policy</a></li>
                     </ul>
                 </div>
 
@@ -498,15 +479,19 @@ $opg = $pg . ".php";
                     <div class="footer-contact-details">
                         <div class="footer-contact-item">
                             <i class="fas fa-envelope" aria-hidden="true"></i>
-                            <span>info@nicheipo.com</span>
+                            <span>niloy@nicheipo.com</span>
                         </div>
                         <div class="footer-contact-item">
                             <i class="fas fa-phone" aria-hidden="true"></i>
-                            <span>+91 33 2547 0975</span>
+                            <span>
+                                Landline: 033-2529-9731<br>
+                                N. K. Gupta: 098312-46171<br>
+                                S. Gupta: 098314-23955
+                            </span>
                         </div>
                         <div class="footer-contact-item">
                             <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
-                            <span>38A, Narsingh Avenue, Kolkata - 700 074</span>
+                            <span>5/2/4 G1, K B Sarani, Kolkata 700080</span>
                         </div>
                     </div>
                 </div>
@@ -515,7 +500,6 @@ $opg = $pg . ".php";
 
             <div class="footer-bottom-bar">
                 <p class="footer-bottom-copy">&copy; <?php echo date('Y'); ?> NICHE Intellectual Property Offices. All rights reserved.</p>
-                <p class="footer-bottom-design">Designed & Developed with <span>♥</span> for Innovation</p>
             </div>
         </div>
     </footer>
@@ -527,7 +511,7 @@ $opg = $pg . ".php";
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     
     <!-- Custom Modern Script -->
-    <script src="js/modern-script.js?v=1.1"></script>
+    <script src="js/modern-script.js?v=1.2"></script>
 
 </body>
 </html>

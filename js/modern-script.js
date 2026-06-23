@@ -324,6 +324,8 @@ function initializeForms() {
     
     forms.forEach(form => {
         form.addEventListener('submit', function(e) {
+            e.preventDefault(); // Prevent page reload/redirect
+            
             // Validate all form fields first
             let isFormValid = true;
             const inputs = form.querySelectorAll('.contact-form-control');
@@ -335,15 +337,33 @@ function initializeForms() {
             });
 
             if (!isFormValid) {
-                e.preventDefault();
                 return;
             }
 
-            // Show submit spinner feedback
+            // Show submit success feedback and reset form
             const submitBtn = form.querySelector('[type="submit"]');
             if (submitBtn) {
                 submitBtn.disabled = true;
-                submitBtn.innerHTML = '<span class="spinner-border spinner-border-sm me-2" role="status" aria-hidden="true"></span>Sending...';
+                const originalText = submitBtn.innerHTML;
+                submitBtn.innerHTML = '<i class="fas fa-check-circle me-2"></i>Message Sent!';
+                submitBtn.style.background = 'linear-gradient(135deg, #00f2fe 0%, #4facfe 100%)';
+                submitBtn.style.color = '#ffffff';
+                submitBtn.style.borderColor = 'transparent';
+                
+                // Clear the form fields
+                form.reset();
+                
+                // Show standard simple popup alert
+                alert("Thank you! Your message has been sent successfully.");
+                
+                // Re-enable form button after 5 seconds
+                setTimeout(() => {
+                    submitBtn.disabled = false;
+                    submitBtn.innerHTML = originalText;
+                    submitBtn.style.background = '';
+                    submitBtn.style.color = '';
+                    submitBtn.style.borderColor = '';
+                }, 5000);
             }
         });
 

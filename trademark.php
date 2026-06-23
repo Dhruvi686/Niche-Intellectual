@@ -492,7 +492,7 @@ if (!isset($pg)) {
                         
                         <div style="margin-top: 2rem;">
                             <a href="#contact" class="tm-btn-secondary" style="padding: 0.85rem 1.75rem;">
-                                <i class="fa-solid fa-envelope" style="margin-right: 8px;"></i> info@nicheipo.com
+                                <i class="fa-solid fa-envelope" style="margin-right: 8px;"></i> niloy@nicheipo.com
                             </a>
                         </div>
                     </div>
