@@ -479,14 +479,15 @@ $opg = $pg . ".php";
                     <div class="footer-contact-details">
                         <div class="footer-contact-item">
                             <i class="fas fa-envelope" aria-hidden="true"></i>
-                            <span>niloy@nicheipo.com</span>
+                            <span>
+                                shumanto@nicheipo.com<br>
+                                shibani@nicheipo.com
+                            </span>
                         </div>
                         <div class="footer-contact-item">
                             <i class="fas fa-phone" aria-hidden="true"></i>
                             <span>
-                                Landline: 033-2529-9731<br>
-                                N. K. Gupta: 098312-46171<br>
-                                S. Gupta: 098314-23955
+                                Landline: 033-2529-9731
                             </span>
                         </div>
                         <div class="footer-contact-item">

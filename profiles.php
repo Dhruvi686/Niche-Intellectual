@@ -208,7 +208,7 @@ $activeTab = isset($_REQUEST['tab']) && $_REQUEST['tab'] === 'associates' ? 'ass
                                 </p>
                                 <div class="mt-4 p-4 rounded" style="background: rgba(255, 255, 255, 0.02); border: 1px solid rgba(255, 255, 255, 0.05);">
                                     <h6 class="text-white mb-2"><i class="fa-solid fa-envelope text-info me-2"></i> Contact Details:</h6>
-                                    <span class="text-white opacity-50 small">niloygupta@rediffmail.com &nbsp;/&nbsp; niloygupta@yahoo.co.in &nbsp;/&nbsp; niloy@nicheipo.com</span>
+                                    <span class="text-white opacity-50 small">niloygupta@rediffmail.com &nbsp;/&nbsp; niloygupta@yahoo.co.in</span>
                                 </div>
                             </div>
                         </div>
@@ -241,6 +241,10 @@ $activeTab = isset($_REQUEST['tab']) && $_REQUEST['tab'] === 'associates' ? 'ass
                                     <p class="fst-italic text-white mb-0" style="font-size: 1.1rem; line-height: 1.6;">
                                         &ldquo;Protecting Ideas. Preserving Innovation. Securing Brand Value.&rdquo;
                                     </p>
+                                </div>
+                                <div class="mt-4 p-4 rounded" style="background: rgba(255, 255, 255, 0.02); border: 1px solid rgba(255, 255, 255, 0.05);">
+                                    <h6 class="text-white mb-2"><i class="fa-solid fa-envelope text-info me-2"></i> Contact Details:</h6>
+                                    <span class="text-white opacity-50 small">shumanto@nicheipo.com</span>
                                 </div>
                             </div>
                         </div>
@@ -276,6 +280,10 @@ $activeTab = isset($_REQUEST['tab']) && $_REQUEST['tab'] === 'associates' ? 'ass
                                     <p class="fst-italic text-white mb-0" style="font-size: 1.1rem; line-height: 1.6;">
                                         &ldquo;Transforming Innovation into Protected Intellectual Assets.&rdquo;
                                     </p>
+                                </div>
+                                <div class="mt-4 p-4 rounded" style="background: rgba(255, 255, 255, 0.02); border: 1px solid rgba(255, 255, 255, 0.05);">
+                                    <h6 class="text-white mb-2"><i class="fa-solid fa-envelope text-info me-2"></i> Contact Details:</h6>
+                                    <span class="text-white opacity-50 small">shibani@nicheipo.com</span>
                                 </div>
                             </div>
                         </div>

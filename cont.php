@@ -18,9 +18,6 @@
     <td align="left" valign="middle"><em>Telfax</em> : 91 33 2529 9731 / 2579 8924</td>
   </tr>
   <tr>
-    <td align="left" valign="middle"><em>Mobile</em>: 098312-46171 (Niloy Kumar Gupta) / 098314-23955 (Shumanto Gupta)</td>
-  </tr>
-  <tr>
-    <td align="left" valign="middle" class="fmenu"><em>Email</em>: <a href="mailto:niloygupta@rediffmail.com">niloygupta@rediffmail.com</a> / <a href="mailto:niloygupta@yahoo.co.in">niloygupta@yahoo.co.in </a> &nbsp;/ <a href="mailto:niloy@nicheipo.com">niloy@nicheipo.com</a> /<a href="mailto:shumanto@nicheipo.com">shumanto@nicheipo.com</a></td>
+    <td align="left" valign="middle" class="fmenu"><em>Email</em>: <a href="mailto:shumanto@nicheipo.com">shumanto@nicheipo.com</a> / <a href="mailto:shibani@nicheipo.com">shibani@nicheipo.com</a></td>
   </tr>
 </table>
