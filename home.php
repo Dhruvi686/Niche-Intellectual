@@ -1,0 +1,8 @@
+<table width="100%" border="0" cellspacing="1" cellpadding="1">
+  <tr>
+    <td height="30" align="left" valign="middle" style="font-family:arial; font-size:12pt; font-weight:bold; border-bottom:solid 1px #FFCC00;">Welcome to <span style="color:#FF6600;">NICHE, Intellectual Property Offices</span></td>
+  </tr>
+  <tr>
+    <td align="left" valign="top"><div align="justify"><img src="images/attorney.jpg" width="100" height="103" hspace="5" vspace="3" style="float:left;">An IPR Attorney House, NICHE, Intellectual Property Offices, having office at Kolkata, and Indian Associate’s offices at Delhi, Mumbai, Chennai and Hyderabad and International Associates at China, USA, European Union, Great Britain, Australia, Bangladesh, Bhutan, Nepal, Pakistan and Sri Lanka. The firm comprises a group of Patent Attorneys and Advocates with longstanding experience dealing with matters connected with IPRs, namely Patents, Designs, Trade Marks, Geographical Indications and Copyrights and other office procedures with respective Intellectual Property Offices in India. The consultation in regard with Licensing, Agreements, and Assignments of different intellectual property is also done by us. Further we are a team of professionals having extensive legal experience and higher educational backgrounds with expertise in drafting patent specifications, filing applications for patent in India, filing PCT applications and National Phase applications in various countries, filing and disposal of Pre and Post Grant oppositions and also deals with Appellate Board matter and Litigations . The firm also provides further consultation in the fields of CE &amp; CCC Certifications and Taxes.</div></td>
+  </tr>
+</table>
